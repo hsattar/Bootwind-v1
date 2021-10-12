@@ -17,75 +17,75 @@ let componentCards = [
     },
     {
         name: "buttons",
-        description: "Breadcrumbs"
+        description: "buttons are for the user to click which will trigger something"
     },
     {
         name: "cards",
-        description: "Breadcrumbs"
+        description: "cards are used to display information like this"
     },
     {
         name: "carousels",
-        description: "Breadcrumbs"
+        description: "carousels are a slideshow, most cases will involve images"
     },
     {
         name: "collapse",
-        description: "Breadcrumbs"
+        description: "a collapse is used to hide or display information"
     },
     {
         name: "dropdowns",
-        description: "Breadcrumbs"
+        description: "a dropdown will present the user with more options"
     },
     {
         name: "forms",
-        description: "Breadcrumbs"
+        description: "a form is used for the vistor to send a message to the owner"
     },
     {
         name: "jumbotrons",
-        description: "Breadcrumbs"
+        description: "a jumbotron is a box used to indicate text which requires extra attention"
     },
     {
         name: "list groups",
-        description: "Breadcrumbs"
+        description: "a collection of a group of items"
     },
     {
         name: "media objects",
-        description: "Breadcrumbs"
+        description: "displays an image to the side of a a heading and text"
     },
     {
         name: "modals",
-        description: "Breadcrumbs"
+        description: "a custom pop up message displayed to the user"
     },
     {
         name: "navbars",
-        description: "Breadcrumbs"
+        description: "found at the top of the page showing the main pages of a website"
     },
     {
         name: "navs & tabs",
-        description: "Breadcrumbs"
+        description: "can be used to help seperate different sections of content"
     },
     {
         name: "off canvas",
-        description: "Breadcrumbs"
+        description: "add a hidden sidebar for extra navigation links"
     },
     {
         name: "popovers",
-        description: "Breadcrumbs"
+        description: "displays extra information when clicking an element"
     },
     {
         name: "progress bars",
-        description: "Breadcrumbs"
+        description: "helps indicate to the user that something is happening"
     },
     {
         name: "scrollspys",
-        description: "Breadcrumbs"
+        description: "helps indicate what section the user is viewing"
     },
     {
         name: "spinners",
-        description: "Breadcrumbs"
+        description: "helps indicate to the user that something is loading"
     },
     {
         name: "toasts",
-        description: "Breadcrumbs"
+        description: "a small notification similar to mobile push notifications"
     }
 ]
 
