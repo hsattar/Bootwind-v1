@@ -84,6 +84,10 @@ let componentCards = [
         description: "helps indicate to the user that something is loading"
     },
     {
+        name: "tables",
+        description: "tables are used to show a group of related information"
+    },
+    {
         name: "toasts",
         description: "a small notification similar to mobile push notifications"
     }
