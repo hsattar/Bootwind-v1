@@ -9,11 +9,11 @@
 <title>Bootwind - Alerts</title>
 
 </head>
-<body class="text-center font-mono capitalize">
+<body class="font-mono">
 
 <div class="container mx-auto">
 
-<h1 class="mt-4 mb-3 text-4xl"><a href="./index.html">BOOTWIND</a> - ALERTS</h1>
+<h1 class="mt-4 mb-3 text-4xl text-center"><a href="./index.html">BOOTWIND</a> - ALERTS</h1>
 
 <div class="bg-green-200 p-3 rounded-md my-3 flex justify-between">
     <p class="text-green-700">An alert message to indicate to the user</p>
@@ -54,6 +54,62 @@
     <p class="text-gray-700">An alert message to indicate to the user</p>
     <button class="alert-close-btn text-gray-700">&#10006</button>
 </div>
+
+<pre class="bg-gray-900 text-gray-100 rounded-md">
+<code>
+    &#60;div class="bg-green-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-green-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-green-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-blue-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-blue-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-blue-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-indigo-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-indigo-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-indigo-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-purple-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-purple-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-purple-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-red-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-red-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-red-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-pink-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-pink-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-pink-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-yellow-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-yellow-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-yellow-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="bg-gray-200 p-3 rounded-md my-3 flex justify-between"&#62;
+        &#60;p class="text-gray-700"&#62;An alert message to indicate to the user&#60;/p&#62;
+        &#60;button class="alert-close-btn text-gray-700"&#62;&#10006&#60;/button&#62;
+    &#60;/div>
+
+    &#60;script&#62;
+
+        const closeAlertBtn = document.querySelectorAll('.alert-close-btn')
+        
+        closeAlertBtn.forEach(btn => {
+            btn.addEventListener('click', e => {
+                e.path[1].remove()
+            })
+        })
+        
+    &#60;/script&#62;
+</code>
+</pre>
 
 </div>
 
