@@ -1,11 +1,11 @@
 let componentCards = [
     {
-        name: "alerts",
-        description: "Alerts Are Used To Warn The User About Something"
-    },
-    {
         name: "accordians",
         description: "Accordians Can Be Used For FAQ's"
+    },
+    {
+        name: "alerts",
+        description: "Alerts Are Used To Warn The User About Something"
     },
     {
         name: "badges",
